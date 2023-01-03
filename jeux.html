@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Pierre Feuille Ciseaux</title>
+</head>
+<body>
+    <header>
+        <h1>Pierre Feuille Ciseaux</h1>
+        <nav>
+            <div>
+                <ul>
+                    <li>Défaite <span class="defaite">0</span></li>
+                    <li>Victoire <span class="victoire">0</span></li>
+                    <li>Egalite <span class="egalite">0</span></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="game-action">
+        <div>
+            <div class="myGame">
+                <img class="myGame-pierreImg" src="images/pierre.png" alt="">
+                <img class="myGame-feuilleImg" src="images/feuille.png" alt="">
+                <img class="myGame-ciseauxImg" src="images/ciseaux.png" alt="">
+                <p>Joueur</p>
+            </div>
+            <div class="aiGame">
+                <img class="aiGame-pierreImg" src="images/pierre.png" alt="">
+                <img class="aiGame-feuilleImg" src="images/feuille.png" alt="">
+                <img class="aiGame-ciseauxImg" src="images/ciseaux.png" alt="">
+                <p>AI</p>
+            </div>
+        </div>
+        <p><span class="result"></span></p>
+    </section>
+    <footer>
+        <div class="btn-pierre">
+            <img src="images/pierre.png" alt="">
+        </div>
+        <div class="btn-feuille">
+            <img src="images/feuille.png" alt="">
+        </div>
+        <div class="btn-ciseau">
+            <img src="images/ciseaux.png" alt="">
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
